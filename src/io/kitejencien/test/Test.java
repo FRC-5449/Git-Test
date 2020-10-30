@@ -1,11 +1,12 @@
 package io.kitejencien.test;
 
-import java.util.LinkedList;
-import java.util.Queue;
+
+import java.util.Stack;
 
 public class Test {
     public static void main(String[] args) {
-        Queue<String> strs = new LinkedList<>();
-        strs.offer("hi");
+        Stack<String> strs = new Stack<>();
+        System.out.println("asdkudsahsdahsdaihsdaui");
+        strs.add("hi");
     }
 }
